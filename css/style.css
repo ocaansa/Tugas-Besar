@@ -9,9 +9,18 @@
 	list-style: none;
 }
 
-/* header{
-	
-} */
+.emergency-button {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    z-index: 1001;
+}
 
 .main-header{
 	position: fixed;

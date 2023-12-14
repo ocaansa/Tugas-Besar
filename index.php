@@ -22,16 +22,13 @@
 </head>
 
 <body>
-    <header>
-        <!-- Emergency Call Button -->
-        <div class="emergency-call">
-            <a href="#" class="btn-emergency">Emergency Call</a>
-        </div>     
-    </header>
+    <!-- Add this code at the top of your body tag -->
+    <button onclick="emergencyCall()" class="emergency-button"><a href="#">Emergency Call</a></button>
+
 
     <!-- Main-Header -->
     <div class="main-header">
-        <a href="#" class="logo">Pet<span>Love</span></a>   
+        <a href="#" class="logo">Pet<span>Love</span></a>
 
         <ul class="navlist">
             <li><a href="#">Home</a></li>
@@ -42,30 +39,25 @@
         <div class="icons">
             <a href="#"><i class='bx bx-search-alt-2'></i></a>
             <a href="#"><i class='bx bx-cart'></i></a>
-            <!-- <a href="#"><i class='bx bx-phone'></i></a> -->
+
             <div class="bx bx-menu" id="menu-icon"></div>
         </div>
     </div>
 
+    <!-- isi -->
     <section class="main-body">
         <div class="main-text">
             <h5>Welcome!</h5>
             <h1>Clinic for Your <br> <span>Best Friends</span> </h1>
             <br>
-            <!-- <p>Choose the service, <br> now they love.</p> -->
+
             <div class="main-btn">
                 <a href="#" class="btn">Masuk</a>
                 <a href="#" class="btn btn2">Daftar</a>
             </div>
-            
+
         </div>
     </section>
-
-    <!-- <div class="left">
-        <a href="#"><i class='bx bxl-twitter'></i></a>
-        <a href="#"><i class='bx bxl-instagram'></i></a>
-        <a href="#"><i class='bx bxl-facebook'></i></a>
-    </div> -->
 
     <div class="right">
         <a href="#" class="scroll">Scroll Down<i class='bx bx-chevrons-down'></i></a>
@@ -74,6 +66,7 @@
     <!----custom js link--->
     <script type="text/javascript" src="js/script.js"></script>
 
+    
 </body>
 
 </html>
