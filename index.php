@@ -48,7 +48,7 @@
     <section class="main-body">
         <div class="main-text">
             <h5>Welcome!</h5>
-            <h1>Clinic for Your <br> <span>Best Friends</span> </h1>
+            <h1>care your <br> <span>pets</span> </h1>
             <br>
 
             <div class="main-btn">
@@ -65,6 +65,23 @@
 
     <!----custom js link--->
     <script type="text/javascript" src="js/script.js"></script>
+
+     <!----testimoni--->
+<section class="testimoni-section">
+    <div class="container">
+        <h2> What people are saying about us?</h2>
+        <div class="testimoni-box">
+            <!-- Testimoni 1 -->
+            <div class="testimoni-card">
+                <img src="path/to/image.jpg" alt="Nama Pelanggan">
+                <p>"Pet Love memberikan layanan terbaik untuk hewan peliharaan saya!"</p>
+                <h5> Yanto bgt </h5>
+            </div>
+            <!-- Testimoni 2 -->
+           
+        </div>
+    </div>
+</section>
 
     
 </body>
